@@ -22,3 +22,15 @@ That being said, due to the complexity of the slope in a multiple linear regress
 In order to determine the effectiveness in predicting outputs we will use our p-value and our r-squared value. From our summary, the r-squared value is 0.7149, which means that roughly 71% of the variablilty of our dependent variable (miles per gallon prediction) is explained using this multiple linear model. In addition, the p-value of our linear regression analysis is 5.35 x 10-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is a significant relationship between the independent variables and miles per gallon, which would suggest this linear model predicts miles per gallon effectively. 
 
 (Source: 15.7.3)
+
+## Summary Statistics on Suspension Coils
+
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+![total summary](https://user-images.githubusercontent.com/109091887/200959481-3fd82af4-0cfa-4399-81d3-96d041f87bcd.PNG)
+
+In total, the variance of the suspension coils is about 62.3 psi. Therefore, the current manufacturing data meets this design specification for all manufacturing lots.
+
+![lot summary](https://user-images.githubusercontent.com/109091887/200959803-be7fcc28-f966-4e78-9d84-442d1613a8a6.PNG)
+
+Individually, the variance in the suspension coils for Lot 1, Lot 2, and Lot 3 are 0.98 psi, 7.47 psi, and 170.29 psi, respectively. Therefore, Lot 1 and Lot 2 meet this design specification, but Lot 3 has a variance greater than 100 psi so it does not meet this design specification. 
