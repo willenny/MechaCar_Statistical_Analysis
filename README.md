@@ -52,3 +52,21 @@ When completing a t test between lot 2 and the population, our p-value of 0.61 i
 ![t test lot 3](https://user-images.githubusercontent.com/109091887/200990803-4efd9cad-49b2-4759-9e90-7918879c479f.PNG)
 
 When completing a t test between lot 3 and the population, our p-value of 0.04 is below our significance level. Therefore, we do have sufficient evidence to reject the null hypothesis, and we would state that the mean PSI in manufacturing lot 3 is statistically different from the population mean of 1,500 pounds per square inch.
+
+## Study Design: MechaCar vs Competition
+
+- What metric or metrics are you going to test?
+
+In order to determine how MechaCars perform against their competition several metrics of interest would be: cost, engine type, safety rating, reliability, fuel economony, and odometer reading.
+
+- What is the null hypothesis or alternative hypothesis?
+
+The null hypothesis is that the mean difference in the safety rating between MechaCar and it's competitor is zero. The alternative hypothesis is that the mean difference in safety rating between MechaCar and it's competitor is not zero. 
+
+- What statistical test would you use to test the hypothesis? And why?
+
+In order to test the hypothesis, a two-sample t-tests can be used to compare MechaCar's safety rating with it's competitor's safety rating, each coming from a their population of cars. More specifically, a pair t-test can be completed because we want to pair observations in one dataset with observations in another. 
+
+- What data is needed to run the statistical test?
+
+Firstly, each sample size needs to be reasonably large. Generally speaking, this means that the sample data distribution should be similar to its population data distribution. Increasing the sample size until it's distribution resembles the population distribution would ensure an appropriate amount of data. In each sample, the safety rating data would need to be collected fo each car.
